@@ -1,0 +1,65 @@
+/*======== Global CSS========*/
+body, h1, h2, h3, h4, h5, h6, p, a {
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero-area .hero-content p {
+  color: dimgray;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 300;
+}
+
+.hero-area .hero-content h2 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.hero-area .hero-content h2 span {
+  color: #FF428D;
+  text-transform: uppercase;
+}
+
+.hero-area .hero-content h5 {
+  font-size: 20px;
+  line-height: 30px;
+  color: #000;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.hero-area .hero-content a.cs-btn {
+  text-decoration: none;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 3px;
+  border: 1px solid #FF428D;
+  -webkit-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
+  background-image: -webkit-linear-gradient(45deg, #FF428D, tomato);
+  background-image: -o-linear-gradient(45deg, #FF428D, tomato);
+  background-image: linear-gradient(45deg, #FF428D, tomato);
+  padding: 5px 30px;
+}
+
+.hero-area .hero-content a.cs-btn:hover {
+  color: #FF428D;
+  background: #fff;
+}
+
+/*===================Hero Area=============*/
+.hero-area {
+  padding: 50px 0px 80px 0px;
+  background: url(../images/header-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.hero-area .hero-content {
+  padding-top: 20%;
+}
