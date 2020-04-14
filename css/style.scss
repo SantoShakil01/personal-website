@@ -117,3 +117,49 @@ body, h1, h2, h3, h4, h5, h6, p, a{
         margin-bottom: 30px;
     }
 } 
+
+
+
+/*===================Client Area=============*/
+.client-area{
+    @include cs-pading;
+    padding-top: 80px;
+    background: url(../images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    text-align: center;
+    h2{
+        @extend %h2;
+        margin-bottom: 30px;
+    }
+    .client-review{
+        padding: 20px 0px;
+        h5{
+            @extend %h5;
+        }
+        p{
+            @extend %p;
+            color: #000;
+            span{
+                color: #716d6d;
+            }
+        }
+    }
+
+    .cta{
+        background-image: linear-gradient(45deg, #FF428D, tomato);
+        padding: 50px;
+        &:hover{
+            background-image: linear-gradient(45deg, tomato, #FF428D);
+        }
+        p{
+            @extend %p;
+            color: #fff;
+            a{
+                color: #fff;
+                text-decoration: none;
+                font-size: 24px;
+            }
+        }
+    }
+} 

@@ -3,14 +3,14 @@ body, h1, h2, h3, h4, h5, h6, p, a {
   font-family: 'Poppins', sans-serif;
 }
 
-.hero-area .hero-content p, .dream-area .dream-content p {
+.hero-area .hero-content p, .dream-area .dream-content p, .client-area .client-review p, .client-area .cta p {
   color: dimgray;
   font-size: 14px;
   line-height: 25px;
   font-weight: 300;
 }
 
-.hero-area .hero-content h2, .dream-area .dream-content h2, .work-area h2 {
+.hero-area .hero-content h2, .dream-area .dream-content h2, .work-area h2, .client-area h2 {
   font-size: 40px;
   font-weight: 600;
   line-height: 50px;
@@ -18,12 +18,12 @@ body, h1, h2, h3, h4, h5, h6, p, a {
   margin-bottom: 15px;
 }
 
-.hero-area .hero-content h2 span, .dream-area .dream-content h2 span, .work-area h2 span {
+.hero-area .hero-content h2 span, .dream-area .dream-content h2 span, .work-area h2 span, .client-area h2 span {
   color: #FF428D;
   text-transform: uppercase;
 }
 
-.hero-area .hero-content h5 {
+.hero-area .hero-content h5, .client-area .client-review h5 {
   font-size: 20px;
   line-height: 30px;
   color: #000;
@@ -92,4 +92,53 @@ body, h1, h2, h3, h4, h5, h6, p, a {
 .work-area h2 {
   text-align: center;
   margin-bottom: 30px;
+}
+
+/*===================Client Area=============*/
+.client-area {
+  padding: 50px 0px 80px 0px;
+  padding-top: 80px;
+  background: url(../images/footer-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  text-align: center;
+}
+
+.client-area h2 {
+  margin-bottom: 30px;
+}
+
+.client-area .client-review {
+  padding: 20px 0px;
+}
+
+.client-area .client-review p {
+  color: #000;
+}
+
+.client-area .client-review p span {
+  color: #716d6d;
+}
+
+.client-area .cta {
+  background-image: -webkit-linear-gradient(45deg, #FF428D, tomato);
+  background-image: -o-linear-gradient(45deg, #FF428D, tomato);
+  background-image: linear-gradient(45deg, #FF428D, tomato);
+  padding: 50px;
+}
+
+.client-area .cta:hover {
+  background-image: -webkit-linear-gradient(45deg, tomato, #FF428D);
+  background-image: -o-linear-gradient(45deg, tomato, #FF428D);
+  background-image: linear-gradient(45deg, tomato, #FF428D);
+}
+
+.client-area .cta p {
+  color: #fff;
+}
+
+.client-area .cta p a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
 }
