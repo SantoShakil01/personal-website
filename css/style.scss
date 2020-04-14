@@ -78,3 +78,28 @@ body, h1, h2, h3, h4, h5, h6, p, a{
         }
     }
 } 
+
+/*===================Dream Area=============*/
+.dream-area{
+    @include cs-pading;
+    background: url(../images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    .dream-image{
+        img{
+            width: 90%;
+        }
+    }
+    .dream-content{
+        padding-top: 20%;
+        h2{
+            @extend %h2;
+        }
+        p{
+            @extend %p;
+        }
+        a.cs-btn{
+            @extend %cs-btn;
+        }
+    }
+} 
